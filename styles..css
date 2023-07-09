@@ -1,0 +1,134 @@
+
+/* Contenedor */
+.container{
+    height: 88vh;
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 330px;
+    height: 330px;
+    padding: 30px;
+    color: white;
+    background: conic-gradient(from 131deg at -233.09% 24.64%, #1F2630 180deg, #14181E 360deg);
+    border-radius: 30px;
+}
+
+/* Estilos Generales */
+
+.circulo{
+    background-color: rgba(56, 66, 80, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    float: left;
+    margin-left: 10px;
+}
+
+
+/* Icono Estrella */
+
+.circulo i{
+    color: #FC7613;
+}
+
+/* Titulo */
+.titulo{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    word-wrap: break-word;
+    color: white;
+}
+
+/* Texto */
+.texto{
+    font-size: 12px;
+    font-weight: 400;
+    word-wrap: break-word;
+    color: #808080;
+}
+
+/* Puntajes */
+.puntajes .circulo_puntaje{
+    background-color: rgba(56, 66, 80, 1);
+    border: 0;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-bottom: 17px;
+}
+
+.puntajes .circulo_puntaje:hover{
+    background-color: #717B8B;
+    transition: all 0.3s ease-in;
+}
+
+/* Submit Button */
+.submit{
+    border: 0;
+    height: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #FC7613;
+    border-radius: 30px;
+    margin-left: 10px;
+    width: 95% !important;
+}
+
+.submit:hover{
+    color: white;
+    background-color: #FC7613;
+    transition: all 0.2s ease-in;
+}
+
+/* Box Thank you */
+
+.boxTY {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor_estrellaG{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Icono de Estrella Grande */
+
+.estrellaG{
+    width: 78.5px;
+    color: #FC7613;
+}
+
+/* Score Seleccionado */
+
+.score_Seleccionado {
+    background-color: #384250;
+    color: #FC7613;
+    text-align: center;
+    padding-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    word-wrap: break-word;
+    width: 180px;
+    border-radius: 30px;
+    width: 180px;
+    height: 23px;
+}
