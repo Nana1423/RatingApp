@@ -11,3 +11,11 @@ function buttonSeleccionado(boton) {
     // Establecer el color deseado en el botón seleccionado
     boton.style.backgroundColor = '#FC7613';
 }
+
+
+// Cambiando el contenido del div al hacer click en SUBMIT
+function cambiarContenido() {
+    const div = document.querySelectorAll('.box')
+
+    div.innerHTML = "New Text";
+}

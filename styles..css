@@ -96,7 +96,6 @@
 }
 
 /* Box Thank you */
-
 .boxTY {
     display: flex;
     justify-content: center;
@@ -111,14 +110,12 @@
 }
 
 /* Icono de Estrella Grande */
-
 .estrellaG{
     width: 78.5px;
     color: #FC7613;
 }
 
 /* Score Seleccionado */
-
 .score_Seleccionado {
     background-color: #384250;
     color: #FC7613;
@@ -129,6 +126,13 @@
     word-wrap: break-word;
     width: 180px;
     border-radius: 30px;
-    width: 180px;
+    width: 180px !important;
     height: 23px;
+    
+}
+
+/* Titulo TY */
+.tituloTY {
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
