@@ -4,7 +4,7 @@ This project aims to create an interactive rating app. The goal is to allow user
 
 ## Demo
 
-![Interactive Rating Component Demo](rating_component_demo.gif)
+![Interactive Rating Component Demo](imagenes/RatingAppGif.gif)
 
 ## Features
 
