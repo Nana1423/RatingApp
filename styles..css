@@ -1,7 +1,12 @@
+body {
+    background-color: #153944 !important;
+}
+
+
 
 /* Contenedor */
 .container{
-    height: 88vh;
+    height: 76vh;
     margin: 50px;
     display: flex;
     justify-content: center;
@@ -135,4 +140,10 @@
 .tituloTY {
     padding-top: 0px;
     margin-bottom: 0px;
+}
+
+/* Footer */
+footer {
+    height: 103px;
+    background-color: #FC7613;
 }

@@ -5,28 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles..css">
-    <script src="main.js"></script>
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- Titulo -->
     <title>Rating App</title>
 </head>
-<body>
+<body id="body">
+    
+
     <!-- Seccion Seleccionar Score -->
-   <section class="container">
+   <section id="container" class="container">
         <div class="box d-flex row">
             <!-- Icono Estrella -->
-            <div class="circulo float-start">
+            <div id="estrella" class="circulo float-start">
                 <i class="estrella bi bi-star-fill"></i>
             </div>
             <!-- Texto -->
             <div>
-                <h1 class="titulo">How did we do?</h1>
-                <p class="texto">Please let us know how we did your support request. All feedback is appreciated to help us improve our offering!</p>
+                <h1 id="titulo1" class="titulo">How did we do?</h1>
+                <p id="text1" class="texto">Please let us know how we did your support request. All feedback is appreciated to help us improve our offering!</p>
             </div>
             <!-- Puntuaje -->
-            <div class="puntajes">
+            <div id="puntajes" class="puntajes">
                 <button class="circulo_puntaje puntaje1" onclick="buttonSeleccionado(this)">1</button>
                 <button class="circulo_puntaje puntaje2" onclick="buttonSeleccionado(this)">2</button>
                 <button class="circulo_puntaje puntaje3" onclick="buttonSeleccionado(this)">3</button>
@@ -34,24 +35,29 @@
                 <button class="circulo_puntaje puntaje5" onclick="buttonSeleccionado(this)">5</button>
             </div>
             <!-- Submit -->
-            <button class="submit" onclick="cambiarContenido(this)">SUBMIT</button>
+            <button class="submit" id="submit" value="guardar" onclick="cambiarContenido()">SUBMIT</button>
         </div>
    </section>
 
-   <!-- Seccion Score Seleccionado -->
-   <section class="container">
+   <section id="container2" class="container">
         <div class="box boxTY d-flex row">
-            <!-- Icono Estrella Grande -->
             <div class="contenedor_estrellaG">
-                <img class="estrella estrellaG" src="imagenes/icon-star.svg" alt="Icono Estrella">
+                <img  class="estrella estrellaG" src="imagenes/icon-star.svg" alt="Icono Estrella">
             </div>
-            <!-- Score Seleccionado -->
-            <div class="score_Seleccionado">You selected # out 5</div>
-            <!-- Titulo TY -->
+            <div id="score" class="score_Seleccionado"></div>
             <h1 class="titulo tituloTY">Thank you!</h1>
-            <!-- Texto de Agradecimiento -->
             <p class="texto">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
         </div>
    </section>
+
+   <!-- Footer -->
+   <footer class="d-flex justify-content-center text-center align-items-center text-white font-weight-bold">
+        <p>Developed by Emanuel Leite <i class="bi bi-c-circle"></i></p>
+   </footer>
+
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="main.js"></script>
 </body>
 </html>
+
+

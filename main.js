@@ -1,3 +1,10 @@
+let puntaje = ""
+
+
+$(document).ready(function () {
+    $('#container2').hide();
+});
+
 // Cambiando el color de los buttons puntaje
 function buttonSeleccionado(boton) {
     // Obtener todos los botones con la clase "circulo_puntaje"
@@ -10,12 +17,21 @@ function buttonSeleccionado(boton) {
 
     // Establecer el color deseado en el botón seleccionado
     boton.style.backgroundColor = '#FC7613';
+
+    // Guarda el valor del puntaje
+    puntaje = event.target.innerHTML;
 }
 
 
 // Cambiando el contenido del div al hacer click en SUBMIT
 function cambiarContenido() {
-    const div = document.querySelectorAll('.box')
+    if (puntaje === ""){
+        alert("El score no ha sido seleccionado.")
+        return
+    }
+    $('#score').text('You selected ' + puntaje +  ' out 5');
 
-    div.innerHTML = "New Text";
+    $('#container').hide();
+    $('#container2').show();
 }
+
