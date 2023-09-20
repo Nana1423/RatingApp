@@ -2,6 +2,8 @@
 
 This project aims to create an interactive rating app. The goal is to allow users to select and submit a number rating, display a "Thank you" card state after submitting a rating, and show hover and focus states for all interactive elements on the page.
 
+Live Demo: https://rating-app-teal.vercel.app/
+
 ## Demo
 
 ![Interactive Rating Component Demo](imagenes/RatingAppGif.gif)
